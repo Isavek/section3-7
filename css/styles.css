@@ -1,0 +1,189 @@
+
+/**** Index Page ****/
+.carousel-caption h5{
+  font-size: 65px;
+}
+body {
+  position: relative;
+}
+.container{
+  padding-bottom: 20px;
+}
+/**.content {
+  padding-top: 50px;
+}
+#item1 {
+  color: blue;
+}**/
+#about{
+  padding-bottom: 20px;
+}
+/**** contact page ****/
+#contact {
+  background-image: url("../img/nyc.jpg"); /*Add a background image*/
+  padding: 50px 100px 100px 100px;
+  background-attachment: fixed; /*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover !important; /*Have the background cover the entire div section*/
+  color: white; /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
+}
+
+a{
+  color: white;
+}
+
+h1,
+h2{
+  padding: 50px 5px 5px;
+  text-align: center;
+}
+
+.viz-color {
+  color: white;
+}
+
+.card{
+  background-color: rgba(0,0,0,0.2) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+#cards {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.form-group{
+  width: 50%
+}
+/*map*/
+  #map{
+    padding: inherit;
+    height: 300px;
+    width: 100%;
+  }
+
+/*Modal*/
+@media (min-width: 768px) {
+  .modal-button button {
+    float: right;
+  }
+  #ivan-resume{
+    height: 500px;
+    width: 100%;
+  }
+}
+
+  /*navbar*/
+
+  .left{float: left;}
+  .right{float: right;}
+  .navbar {
+    background-color: rgba(5,5,5,0.4);
+    position: fixed;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    padding: 1px;
+    z-index: 1;
+  }
+
+  nav a {
+    color:white;
+    padding:20px 20px;
+    transition: color 500ms;
+    webkit-transition: color 500ms;
+  }
+
+  nav a:hover{
+    color: #ff0;
+    text-decoration: none;
+  }
+
+
+  /**** FAQ page ****/
+  .card-header {
+    background: grey;
+    padding: 5px;
+    text-align: center;
+    clear: both;
+  }
+  .card-header button { color: #ffffff; }
+  .card-body {font-size: 18px; color: #eeeef6;}
+  #faq{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/faq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+  }
+  /**** about page ***/
+  .page-link{
+    color: blue;
+  }
+  .about-me{
+    padding: 85px;
+  }
+  .my-story{
+    padding: 10px;
+  }
+  /*typography*/
+
+  h1,
+  h2,
+  h3,
+  h6 {
+    font-family: sans-serif, Futura, Helvetica, Arial;
+  }
+  li {
+    font-family: Georgia, Cambria, Palatino, serif;
+  }
+  /**** Footer ****/
+  footer{
+    color: red;
+    padding: 50px;
+
+  }
+
+  footer a:visited {
+    color:#ff0000;
+  }
+  h6 {
+    color: darkgrey
+  }
+  /**** work section ****/
+  .work-img {
+    display: inline-block;
+    margin:  auto;
+    max-width: 200px;
+    position: relative;
+    clear: both;
+  }
+  .info {
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    color: #fff;
+    font-family: Futura;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    line-height: 1.6;
+    display: none;
+  }
+
+  proj-title{
+    font-weight: 100%;
+  }
